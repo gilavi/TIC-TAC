@@ -54,6 +54,7 @@ int main(){
 				x = x - 3;
 				map[y][x] = 'X';
 			}
+		}
 			if (GetAsyncKeyState(VK_SPACE)){
 				map[x][y] = 'X';
 				break;
